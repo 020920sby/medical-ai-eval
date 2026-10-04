@@ -1,0 +1,29 @@
+# ---- 原始抓包：含第三方产品的内部字段/端点，不入库 ----
+data/raw/*
+!data/raw/.gitkeep
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# ---- 环境变量与密钥 ----
+.env
+.env.local
+secrets/
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+
+# ---- 临时产物 ----
+*.log
+tmp/
